@@ -7,16 +7,16 @@ namespace Q2
        
         static void Main(string[] args)
         {
-            //int n = 8;
+            
             string y = Console.ReadLine();
 
             int n;
 
             n = Int32.Parse(y);
+            compositePrime(n);
 
             void compositePrime(int n)
             {
-
                 while (n % 2 == 0)
                 {
                     Console.Write(2);
@@ -26,7 +26,6 @@ namespace Q2
 
                 for (int i = 3; i <= Math.Sqrt(n); i = i + 2)
                 {
-
                     while (n % i == 0)
                     {
                         Console.Write(i);
@@ -39,10 +38,9 @@ namespace Q2
                 {
                     Console.Write(n);
                     Console.Write(" ");
-                }
-                    
+                }       
             }
-            compositePrime(n);
+            
         }
     }
 }
