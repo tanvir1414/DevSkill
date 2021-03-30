@@ -10,7 +10,7 @@ namespace Q3
             bool h = true;
             do
             {
-                
+
                 string str = Console.ReadLine();
 
                 int b = str.Length;
@@ -35,10 +35,10 @@ namespace Q3
                 }
                 if (key == ConsoleKey.End)
                     h = false;
-                    
+
 
             } while (h == true);
-         }
-            
+        }
+
     }
 }

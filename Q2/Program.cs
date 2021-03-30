@@ -13,6 +13,7 @@ namespace Q2
             int n;
 
             n = Int32.Parse(y);
+
             compositePrime(n);
 
             void compositePrime(int n)
